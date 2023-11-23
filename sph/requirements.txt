@@ -1,0 +1,8 @@
+numpy
+requests
+pandas
+plotly
+schedule
+datetime
+orca
+psutil

@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Main",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/main.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "stopOnEntry": false,
+      "preLaunchTask": null,
+      "postDebugTask": null,
+      "args": [],
+      "runtimeArgs": ["-B"],
+      "pythonPath": "${config:python.pythonPath}",
+      "debugOptions": [],
+      "extraProperties": {},
+      "django": false,
+      "jinja": false
+    }
+  ]
+}
